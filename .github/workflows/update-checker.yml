@@ -25,6 +25,9 @@ jobs:
   check:
     runs-on: ubuntu-latest
 
+    permissions:
+        contents: write
+
     steps:
 
     - name: Get Commit Hash
